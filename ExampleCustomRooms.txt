@@ -1,0 +1,9 @@
+ 
+-- IN ROBLOX STUDIO PUT THE ORIENTATION TO 0,90,0
+-- AND POSITION TO -60, 20, 3240 TO REPLACE
+
+local model = game:GetObjects("rbxassetid://11981892862")[1]
+model.Parent = workspace.CurrentRooms
+workspace.CurrentRooms[0]:Remove()
+
+-- REST OF SCRIPTING GOES HERE
